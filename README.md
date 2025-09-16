@@ -134,6 +134,12 @@ Open the notebook in Google Colab and run all cells (GPU runtime recommended).
 
 ---
 
+## Local (Linux-only) Base Code
+
+There is a **command-line Python implementation** in the [`local/`](local/) folder intended for **Linux only** (due to POSIX/OS-specific dependencies used in the scripts). If you’re on Windows, use **WSL2** or run the Colab notebook instead.
+
+---
+
 ## Citation
 
 If you use or build on this work, please cite the project report associated with this repository (course project, TU Dortmund, Aug 2025) and the BayesFlow & PyCBC papers/tooling.
